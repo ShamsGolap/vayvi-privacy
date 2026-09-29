@@ -1,8 +1,8 @@
 # Politique de confidentialité de Vayvi
 
-**Dernière mise à jour du projet de politique : 29 septembre 2026**
+**Dernière mise à jour : 29 septembre 2026**
 
-Version préparée : Vayvi 0.2.2+5, Android `com.golappstudio.vayvi`.
+Version concernée : Vayvi 0.2.2+5, Android `com.golappstudio.vayvi`.
 
 ## Éditeur et contact
 
@@ -39,10 +39,10 @@ Vayvi enregistre ces données dans une base locale, dans
 l'espace de l'application sur ton appareil.
 
 Dans cette version, l'application ne transmet pas les données relationnelles
-des évaluations à GolApp Studio ni aux services publicitaires. Elle ne possède ni compte utilisateur, ni backend
+de Vayvi à GolApp Studio ni aux services publicitaires. Elle ne possède ni compte utilisateur, ni backend
 applicatif, ni synchronisation cloud, ni sauvegarde serveur Vayvi.
 
-GolApp Studio ne vend ni ne partage les données contenues dans tes évaluations.
+GolApp Studio ne vend ni ne partage les données relationnelles enregistrées dans Vayvi.
 
 Les sauvegardes, restaurations et transferts proposés par Android ou le fabricant
 de ton appareil sont distincts de Vayvi. Selon ton appareil et tes réglages, ils
@@ -64,15 +64,13 @@ sont disponibles, des interactions et des diagnostics. Le manifeste Android
 inclut également des permissions AD_SERVICES : Android peut ainsi exposer au
 SDK les API publicitaires Privacy Sandbox correspondantes.
 
-À ce stade, Vayvi ne charge ni n'affiche aucune annonce : aucune bannière,
+À ce stade, Vayvi ne charge ni n'affiche d'annonce : aucune bannière,
 aucun interstitiel et aucune publicité récompensée réelle ne sont en place.
 Vayvi ne transmet aux services publicitaires aucun nom ou surnom, Flag,
 Signal majeur, score, phase relationnelle, snapshot, décision, note ou donnée
 de Moi et ne crée aucun profil publicitaire maison. Aucun Firebase Analytics
-ni Google Analytics n'est intégré. Lorsque UMP le requiert, « Options de
-confidentialité » peut être rouvert dans Paramètres.
-La page publique indiquée plus haut n'est pas actualisée automatiquement par
-ce document local ; elle doit être synchronisée avant la distribution.
+ni Google Analytics n'est intégré. Lorsque UMP le requiert,
+le formulaire « Options de confidentialité » peut être rouvert depuis Paramètres.
 
 Les simulations Vayvi+ et rewarded présentes dans cette version restent
 entièrement locales et ne correspondent à aucun paiement ou affichage
@@ -130,7 +128,7 @@ Dans Paramètres, l'action **« Supprimer toutes mes données »** efface notamm
 
 Vayvi revient ensuite à son état initial. Si l'effacement du cache de partage
 échoue après celui des données principales, l'application le signale et permet
-de réessayer ; la vérification physique de ce parcours reste en attente.
+de réessayer.
 
 Tu peux également utiliser l'effacement des données de l'application proposé par
 Android ou désinstaller Vayvi.
@@ -176,22 +174,12 @@ vérité objective ou un diagnostic sur une personne.
 
 ## Évolution de cette politique
 
-Cette politique pourra évoluer si les fonctionnalités ou les pratiques de Vayvi
-changent.
+Cette politique pourra évoluer si les fonctionnalités ou les pratiques de Vayvi changent.
+Elle sera notamment réévaluée en cas d’ajout ou de modification significative de fonctionnalités
+telles que l’affichage de publicités, les achats ou abonnements, l’analytics, le crash reporting,
+la synchronisation distante ou l’intégration de nouveaux services ou SDK susceptibles de traiter des données.
+La date indiquée en haut de cette page sera mise à jour lors de toute modification significative.
 
-Elle devra notamment être réévaluée avant l'ajout éventuel de fonctionnalités
-telles que :
-
-- publicité réelle ;
-- achats ou abonnements ;
-- services réseau ;
-- analytics ;
-- crash reporting ;
-- synchronisation distante ;
-- autres SDK susceptibles de traiter des données.
-
-La date indiquée en haut de cette page sera mise à jour lors de toute modification
-significative.
 
 ## Contact
 
