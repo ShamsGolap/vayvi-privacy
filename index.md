@@ -1,6 +1,6 @@
 # Politique de confidentialité de Vayvi
 
-**Dernière mise à jour : 1 octobre 2026**
+**Dernière mise à jour : 2 octobre 2026**
 
 Version concernée : Vayvi 0.2.2+5, Android `com.golappstudio.vayvi`.
 
@@ -57,10 +57,22 @@ gérer leurs mécanismes de sauvegarde.
 ## Publicité, mesure d'audience et permissions
 
 Sur Android, Vayvi Free peut afficher des annonces réelles : une bannière sur
-la racine Analyse et un interstitiel après la sortie volontaire du résultat
-d'une évaluation, lorsque les conditions de fréquence l'autorisent. Ce dernier
-ne s'affiche pas pendant la première session ; il exige au moins trois
-finalisations et quinze minutes selon le compteur local. L'autorisation de
+les racines Analyse et Décide, dans un seul emplacement partagé au-dessus de la
+navigation. Elle est absente sur Évalue, Moi et Résultat, ainsi que sur les routes
+poussées au-dessus du shell, notamment les détails, formulaires et Paramètres.
+
+Un interstitiel peut apparaître seulement après une évaluation finalisée, via
+le CTA volontaire « Retour à l’accueil » depuis Résultat. La première
+finalisation ne déclenche aucun interstitiel. L'éligibilité commence à partir de
+deux finalisations depuis le dernier affichage confirmé. Avant le premier
+affichage, aucun délai initial n'est imposé une fois ces deux finalisations
+atteintes. Après chaque affichage confirmé par le SDK, le compteur revient à
+zéro et un délai de 10 minutes s'applique avant un autre affichage. Le maximum
+est de deux affichages confirmés par session/processus. Un échec de chargement
+ou d'affichage ne consomme ni le compteur ni ce quota. Une annonce non prête
+laisse la navigation fonctionner normalement, sans jamais la bloquer ; sa
+disponibilité n'est pas garantie. Aucun interstitiel sur Back, Modifier, au
+lancement, au retour au premier plan ou pendant un formulaire. L'autorisation de
 demander des annonces dépend du statut retourné par UMP.
 Vayvi+ bloque les annonces dans le fonctionnement normal.
 
