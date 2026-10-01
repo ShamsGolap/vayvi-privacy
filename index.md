@@ -1,6 +1,6 @@
 # Politique de confidentialité de Vayvi
 
-**Dernière mise à jour : 29 septembre 2026**
+**Dernière mise à jour : 1 octobre 2026**
 
 Version concernée : Vayvi 0.2.2+5, Android `com.golappstudio.vayvi`.
 
@@ -39,10 +39,11 @@ Vayvi enregistre ces données dans une base locale, dans
 l'espace de l'application sur ton appareil.
 
 Dans cette version, l'application ne transmet pas les données relationnelles
-de Vayvi à GolApp Studio ni aux services publicitaires. Elle ne possède ni compte utilisateur, ni backend
+à GolApp Studio et ne les fournit pas explicitement aux requêtes publicitaires.
+Elle ne possède ni compte utilisateur, ni backend
 applicatif, ni synchronisation cloud, ni sauvegarde serveur Vayvi.
 
-GolApp Studio ne vend ni ne partage les données relationnelles enregistrées dans Vayvi.
+GolApp Studio ne vend ni ne partage les données contenues dans tes évaluations.
 
 Les sauvegardes, restaurations et transferts proposés par Android ou le fabricant
 de ton appareil sont distincts de Vayvi. Selon ton appareil et tes réglages, ils
@@ -55,26 +56,44 @@ gérer leurs mécanismes de sauvegarde.
 
 ## Publicité, mesure d'audience et permissions
 
+Sur Android, Vayvi Free peut afficher des annonces réelles : une bannière sur
+la racine Analyse et un interstitiel après la sortie volontaire du résultat
+d'une évaluation, lorsque les conditions de fréquence l'autorisent. Ce dernier
+ne s'affiche pas pendant la première session ; il exige au moins trois
+finalisations et quinze minutes selon le compteur local. L'autorisation de
+demander des annonces dépend du statut retourné par UMP.
+Vayvi+ bloque les annonces dans le fonctionnement normal.
+
+Les builds de développement debug/profile utilisent par défaut les unités
+officielles Google de test ; les builds release utilisent par défaut les unités
+Vayvi de production. Une configuration explicite peut remplacer ce choix.
+Le mode QA publicitaire utilise uniquement les unités Google de test et peut
+permettre leur affichage indépendamment du statut Vayvi+.
+
 Google Mobile Ads et UMP sont intégrés. Des communications réseau avec Google
 peuvent avoir lieu pour déterminer et recueillir tes choix de consentement et
-pour le fonctionnement du SDK. Selon la configuration et le consentement
+pour le fonctionnement, la diffusion et la mesure des annonces ainsi que la
+prévention de fraude. Selon la configuration et le consentement
 applicables, Google peut traiter des informations techniques telles que des
 informations réseau et appareil, des identifiants publicitaires lorsqu'ils
 sont disponibles, des interactions et des diagnostics. Le manifeste Android
 inclut également des permissions AD_SERVICES : Android peut ainsi exposer au
-SDK les API publicitaires Privacy Sandbox correspondantes.
+SDK les API publicitaires Privacy Sandbox correspondantes. La présence d'une
+permission ne prouve pas qu'une donnée est disponible ou collectée dans tous
+les cas. Cette politique ne fixe pas de durée de conservation des données
+techniques traitées par Google.
 
-À ce stade, Vayvi ne charge ni n'affiche d'annonce : aucune bannière,
-aucun interstitiel et aucune publicité récompensée réelle ne sont en place.
-Vayvi ne transmet aux services publicitaires aucun nom ou surnom, Flag,
+Aucune publicité récompensée réelle n’est utilisée.
+Vayvi ne fournit explicitement aux requêtes publicitaires aucun nom ou surnom,
+identifiant d'évaluation ou d'histoire, Flag,
 Signal majeur, score, phase relationnelle, snapshot, décision, note ou donnée
 de Moi et ne crée aucun profil publicitaire maison. Aucun Firebase Analytics
-ni Google Analytics n'est intégré. Lorsque UMP le requiert,
-le formulaire « Options de confidentialité » peut être rouvert depuis Paramètres.
+ni Google Analytics applicatif n'est intégré ; cela n'exclut pas les mesures
+propres au SDK publicitaire. Lorsque UMP le requiert, « Options de
+confidentialité » peut être rouvert dans Paramètres.
 
-Les simulations Vayvi+ et rewarded présentes dans cette version restent
-entièrement locales et ne correspondent à aucun paiement ou affichage
-publicitaire réel.
+Vayvi+ reste une simulation entièrement locale, sans paiement réel.
+Tous les Signaux majeurs sont gratuits, sans déblocage ni publicité récompensée.
 
 La version Android release comprend les permissions biométriques nécessaires
 au système et à la compatibilité des appareils. Le rappel quotidien pour Moi
@@ -126,9 +145,16 @@ Dans Paramètres, l'action **« Supprimer toutes mes données »** efface notamm
 - les états locaux simulés ;
 - le cache des cartes de partage.
 
-Vayvi revient ensuite à son état initial. Si l'effacement du cache de partage
+Cette action efface les données locales prises en charge ci-dessus, pas toutes
+les données liées aux services publicitaires. Elle ne réinitialise pas
+automatiquement les choix UMP et n'efface pas le compteur technique local de
+fréquence publicitaire. Elle ne supprime pas des données éventuellement détenues
+par Google. Les choix publicitaires se gèrent via « Options de confidentialité »
+lorsque UMP le requiert.
+
+Si l'effacement du cache de partage
 échoue après celui des données principales, l'application le signale et permet
-de réessayer.
+de réessayer ; la vérification physique de ce parcours reste en attente.
 
 Tu peux également utiliser l'effacement des données de l'application proposé par
 Android ou désinstaller Vayvi.
@@ -149,8 +175,8 @@ Vayvi utilise l'espace de stockage interne isolé fourni par Android.
 Dans cette version, la base de données locale ne bénéficie pas d'un chiffrement
 applicatif supplémentaire.
 
-La protection biométrique optionnelle contrôle l'accès au lancement de
-l'application. Elle est désactivée par défaut et ne chiffre
+La protection biométrique optionnelle contrôle l'accès aux zones privées pendant
+une session. Elle est désactivée par défaut et ne chiffre
 pas la base de données locale.
 
 L'absence de noms et de scores sur l'écran d'accueil limite également leur
@@ -174,12 +200,22 @@ vérité objective ou un diagnostic sur une personne.
 
 ## Évolution de cette politique
 
-Cette politique pourra évoluer si les fonctionnalités ou les pratiques de Vayvi changent.
-Elle sera notamment réévaluée en cas d’ajout ou de modification significative de fonctionnalités
-telles que l’affichage de publicités, les achats ou abonnements, l’analytics, le crash reporting,
-la synchronisation distante ou l’intégration de nouveaux services ou SDK susceptibles de traiter des données.
-La date indiquée en haut de cette page sera mise à jour lors de toute modification significative.
+Cette politique pourra évoluer si les fonctionnalités ou les pratiques de Vayvi
+changent.
 
+Elle devra notamment être réévaluée avant l'ajout éventuel de fonctionnalités
+telles que :
+
+- nouveaux formats publicitaires ou changements de traitements publicitaires ;
+- achats ou abonnements ;
+- nouveaux services réseau ;
+- analytics applicatif ;
+- crash reporting ;
+- synchronisation distante ;
+- autres SDK susceptibles de traiter des données.
+
+La date indiquée en haut de cette page sera mise à jour lors de toute modification
+significative.
 
 ## Contact
 
