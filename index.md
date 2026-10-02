@@ -200,6 +200,8 @@ Si tu contactes GolApp Studio par e-mail, par exemple pour :
 
 GolApp Studio reçoit l'adresse e-mail utilisée, le contenu du message et les éventuelles pièces jointes que tu choisis d'envoyer.
 
+Si tu demandes à participer au programme de test fermé Android, l'adresse Google que tu indiques est également ajoutée manuellement à la liste de testeurs dans Google Play Console afin de t'autoriser à rejoindre le programme. Google traite alors cette adresse dans le cadre du service Google Play.
+
 Le contact par e-mail est volontaire. Si tu choisis d’écrire à GolApp Studio, ton adresse e-mail et le contenu nécessaire de ta demande sont indispensables pour pouvoir te répondre ou, le cas échéant, t’ajouter au programme de test.
 
 Ces informations sont utilisées pour traiter et suivre ta demande.
@@ -208,7 +210,9 @@ Pour les demandes de support et de participation à un test, le traitement repos
 
 Les messages sont conservés pendant le temps nécessaire au traitement de la demande et à son suivi raisonnable, sous réserve des obligations légales ou de la nécessité de conserver certains éléments en cas de litige.
 
-L'adresse de support utilise un service de messagerie Google ; Google peut donc traiter les données techniques et le contenu nécessaires au fonctionnement de ce service selon ses propres règles.
+Pour le programme de test fermé, l'adresse Google ajoutée à la liste de testeurs peut y rester pendant la durée du programme. Tu peux demander son retrait à tout moment en écrivant à l'adresse de contact ci-dessous.
+
+L'adresse de support utilise un service de messagerie Google ; Google peut donc traiter les données techniques et le contenu nécessaires au fonctionnement de ce service selon ses propres règles. Google traite également les adresses ajoutées à la liste de testeurs via Google Play Console selon les règles applicables à ses services.
 
 **N'envoie pas d'évaluation complète, de capture contenant des informations privées ou de données personnelles concernant d'autres personnes si ce n'est pas nécessaire.**
 
