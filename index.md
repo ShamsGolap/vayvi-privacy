@@ -77,7 +77,7 @@ Les emplacements actuellement prévus sont :
 
 La première finalisation ne déclenche pas d'interstitiel. Des limites de fréquence sont appliquées afin d'éviter des affichages trop rapprochés. Une annonce non disponible ne bloque pas la navigation.
 
-**Vayvi+ bloque les annonces dans le fonctionnement normal.**
+**Vayvi+ bloque les annonces dans le fonctionnement normal.** Dans cette version, Vayvi+ reste une simulation locale et aucun paiement réel n’est traité.
 
 Aucune publicité récompensée réelle n'est utilisée dans cette version et les Signaux majeurs restent gratuits.
 
@@ -104,7 +104,7 @@ Documentation Google :
 Politique de confidentialité Google :  
 <https://policies.google.com/privacy?hl=fr>
 
-Google peut traiter certaines données dans différents pays selon ses propres règles et mécanismes de transfert de données.
+Google peut traiter certaines données dans différents pays selon ses propres règles et mécanismes de transfert de données. GolApp Studio ne détermine pas les durées de conservation appliquées par Google à ces données techniques.
 
 ### Consentement et options de confidentialité
 
@@ -199,6 +199,8 @@ Si tu contactes GolApp Studio par e-mail, par exemple pour :
 - demander à participer à un programme de test ;
 
 GolApp Studio reçoit l'adresse e-mail utilisée, le contenu du message et les éventuelles pièces jointes que tu choisis d'envoyer.
+
+Le contact par e-mail est volontaire. Si tu choisis d’écrire à GolApp Studio, ton adresse e-mail et le contenu nécessaire de ta demande sont indispensables pour pouvoir te répondre ou, le cas échéant, t’ajouter au programme de test.
 
 Ces informations sont utilisées pour traiter et suivre ta demande.
 
