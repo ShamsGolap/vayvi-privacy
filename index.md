@@ -2,7 +2,7 @@
 
 **Dernière mise à jour : 2 octobre 2026**
 
-Version concernée : Vayvi 0.2.2+5, Android `com.golappstudio.vayvi`.
+Version concernée : Vayvi 0.2.3+6, Android `com.golappstudio.vayvi`.
 
 ## Éditeur et contact
 
