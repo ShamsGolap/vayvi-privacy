@@ -1,10 +1,22 @@
+---
+layout: default
+title: Politique de confidentialité de Vayvi
+description: Politique de confidentialité de l'application Android Vayvi publiée par GolApp Studio.
+---
+
 # Politique de confidentialité de Vayvi
 
 **Dernière mise à jour : 2 octobre 2026**
 
 Version concernée : Vayvi 0.2.3+6, Android `com.golappstudio.vayvi`.
 
-## Éditeur et contact
+> **En bref**
+>
+> Les évaluations et informations relationnelles de Vayvi sont enregistrées localement sur ton appareil et ne sont pas transmises à GolApp Studio.  
+> Vayvi utilise toutefois Google Mobile Ads et Google UMP pour la publicité et la gestion des choix de confidentialité ; ces services peuvent traiter des données techniques.  
+> Si tu contactes GolApp Studio par e-mail, les informations que tu envoies sont traitées afin de répondre à ta demande.
+
+## 1. Éditeur et responsable du traitement
 
 Vayvi est une application publiée sous le nom **GolApp Studio**.
 
@@ -12,229 +24,267 @@ Exploitant actuel : **SHAMS GOLAP**, personne physique publiant sous le nom GolA
 
 Contact confidentialité et support : **golappstudio.support@gmail.com**
 
-Politique de confidentialité publique :
-https://shamsgolap.github.io/vayvi-privacy/
+Politique publique :  
+<https://shamsgolap.github.io/vayvi-privacy/>
 
-## Ce que tu saisis
+Pour les données que GolApp Studio reçoit directement, notamment lors d'un contact par e-mail, GolApp Studio agit comme responsable du traitement.
 
-Tu peux saisir le nom ou surnom d'une personne et sélectionner des Green Flags,
-Red Flags et Signaux majeurs. Vayvi conserve aussi un identifiant local
-d'évaluation et ses dates. Un brouillon mémorise ta progression pour reprendre
-plus tard. Analyse peut conserver des points successifs et ton ressenti ; Décide
-peut conserver tes intentions et notes facultatives. Moi conserve ton profil
-personnel et son brouillon lorsque tu utilises ces fonctions.
+## 2. Données que tu saisis dans Vayvi
 
-Ces informations servent à afficher tes évaluations, calculer leur score et
-permettre leur consultation, modification ou suppression.
+Selon les fonctions utilisées, tu peux notamment saisir ou sélectionner :
 
-Le résultat repose sur tes choix : ce n'est pas un diagnostic scientifique,
-médical ou psychologique, ni une vérité objective sur une personne.
+- un nom ou surnom ;
+- des Green Flags, Red Flags et Signaux majeurs ;
+- des évaluations, brouillons et dates associées ;
+- des ressentis et points de suivi dans Analyse ;
+- des intentions et notes facultatives dans Décide ;
+- les informations du profil personnel et son brouillon dans Moi.
 
-Préfère un surnom et évite les informations personnelles inutiles sur d'autres
-personnes.
+Vayvi utilise ces informations pour afficher tes évaluations, calculer les scores et interprétations demandés, permettre leur consultation et leur modification, et faire fonctionner les fonctions locales de l'application.
 
-## Stockage et absence de collecte par l'éditeur
+Le résultat repose sur tes choix. Il ne constitue **ni un diagnostic scientifique, médical ou psychologique, ni une vérité objective sur une personne**.
 
-Vayvi enregistre ces données dans une base locale, dans
-l'espace de l'application sur ton appareil.
+Préfère un surnom et évite de saisir des informations personnelles inutiles concernant d'autres personnes.
 
-Dans cette version, l'application ne transmet pas les données relationnelles
-à GolApp Studio et ne les fournit pas explicitement aux requêtes publicitaires.
-Elle ne possède ni compte utilisateur, ni backend
-applicatif, ni synchronisation cloud, ni sauvegarde serveur Vayvi.
+## 3. Stockage local des données relationnelles
 
-GolApp Studio ne vend ni ne partage les données contenues dans tes évaluations.
+Les données relationnelles décrites ci-dessus sont enregistrées dans l'espace privé de l'application sur ton appareil.
 
-Les sauvegardes, restaurations et transferts proposés par Android ou le fabricant
-de ton appareil sont distincts de Vayvi. Selon ton appareil et tes réglages, ils
-peuvent inclure les données de l'application, y compris dans une sauvegarde
-distante. Vayvi ne les désactive pas explicitement dans cette version et
-GolApp Studio n'y a pas accès.
+Dans cette version :
 
-Consulte les réglages et les informations de confidentialité de ces services pour
-gérer leurs mécanismes de sauvegarde.
+- Vayvi ne possède pas de compte utilisateur ;
+- Vayvi ne possède pas de backend applicatif ;
+- il n'existe pas de synchronisation cloud Vayvi ;
+- GolApp Studio ne reçoit pas les données contenues dans tes évaluations ;
+- ces données relationnelles ne sont pas explicitement ajoutées aux requêtes publicitaires.
 
-## Publicité, mesure d'audience et permissions
+GolApp Studio ne vend pas les données contenues dans tes évaluations.
 
-Sur Android, Vayvi Free peut afficher des annonces réelles : une bannière sur
-les racines Analyse et Décide, dans un seul emplacement partagé au-dessus de la
-navigation. Elle est absente sur Évalue, Moi et Résultat, ainsi que sur les routes
-poussées au-dessus du shell, notamment les détails, formulaires et Paramètres.
+### Sauvegardes Android
 
-Un interstitiel peut apparaître seulement après une évaluation finalisée, via
-le CTA volontaire « Retour à l’accueil » depuis Résultat. La première
-finalisation ne déclenche aucun interstitiel. L'éligibilité commence à partir de
-deux finalisations depuis le dernier affichage confirmé. Avant le premier
-affichage, aucun délai initial n'est imposé une fois ces deux finalisations
-atteintes. Après chaque affichage confirmé par le SDK, le compteur revient à
-zéro et un délai de 10 minutes s'applique avant un autre affichage. Le maximum
-est de deux affichages confirmés par session/processus. Un échec de chargement
-ou d'affichage ne consomme ni le compteur ni ce quota. Une annonce non prête
-laisse la navigation fonctionner normalement, sans jamais la bloquer ; sa
-disponibilité n'est pas garantie. Aucun interstitiel sur Back, Modifier, au
-lancement, au retour au premier plan ou pendant un formulaire. L'autorisation de
-demander des annonces dépend du statut retourné par UMP.
-Vayvi+ bloque les annonces dans le fonctionnement normal.
+Les sauvegardes, restaurations ou transferts proposés par Android ou par le fabricant de ton appareil sont distincts de Vayvi.
 
-Les builds de développement debug/profile utilisent par défaut les unités
-officielles Google de test ; les builds release utilisent par défaut les unités
-Vayvi de production. Une configuration explicite peut remplacer ce choix.
-Le mode QA publicitaire utilise uniquement les unités Google de test et peut
-permettre leur affichage indépendamment du statut Vayvi+.
+Selon ton appareil et tes réglages, ils peuvent inclure des données de l'application dans une sauvegarde locale ou distante. Vayvi ne désactive pas explicitement ces mécanismes dans cette version et GolApp Studio n'accède pas à ces sauvegardes.
 
-Google Mobile Ads et UMP sont intégrés. Des communications réseau avec Google
-peuvent avoir lieu pour déterminer et recueillir tes choix de consentement et
-pour le fonctionnement, la diffusion et la mesure des annonces ainsi que la
-prévention de fraude. Selon la configuration et le consentement
-applicables, Google peut traiter des informations techniques telles que des
-informations réseau et appareil, des identifiants publicitaires lorsqu'ils
-sont disponibles, des interactions et des diagnostics. Le manifeste Android
-inclut également des permissions AD_SERVICES : Android peut ainsi exposer au
-SDK les API publicitaires Privacy Sandbox correspondantes. La présence d'une
-permission ne prouve pas qu'une donnée est disponible ou collectée dans tous
-les cas. Cette politique ne fixe pas de durée de conservation des données
-techniques traitées par Google.
+## 4. Publicité et services Google
 
-Aucune publicité récompensée réelle n’est utilisée.
-Vayvi ne fournit explicitement aux requêtes publicitaires aucun nom ou surnom,
-identifiant d'évaluation ou d'histoire, Flag,
-Signal majeur, score, phase relationnelle, snapshot, décision, note ou donnée
-de Moi et ne crée aucun profil publicitaire maison. Aucun Firebase Analytics
-ni Google Analytics applicatif n'est intégré ; cela n'exclut pas les mesures
-propres au SDK publicitaire. Lorsque UMP le requiert, « Options de
-confidentialité » peut être rouvert dans Paramètres.
+La version gratuite Android de Vayvi peut afficher des annonces.
 
-Vayvi+ reste une simulation entièrement locale, sans paiement réel.
-Tous les Signaux majeurs sont gratuits, sans déblocage ni publicité récompensée.
+Les emplacements actuellement prévus sont :
 
-La version Android release comprend les permissions biométriques nécessaires
-au système et à la compatibilité des appareils. Le rappel quotidien pour Moi
-est désactivé par défaut : tu peux l'activer explicitement et choisir son heure,
-enregistrée localement. Android peut alors demander l'autorisation Notifications.
-Le rappel utilise les notifications locales de l'appareil ; son contenu ne
-contient aucun nom, score, Flag, Signal majeur ou donnée relationnelle. Une
-permission de redémarrage permet de rétablir le rappel après redémarrage de
-l'appareil. Le SDK publicitaire peut nécessiter un accès réseau. Vayvi ne demande pas d'accès à la caméra, au microphone,
-aux contacts, à la localisation ou au stockage partagé.
+- une bannière sur les écrans principaux **Analyse** et **Décide** ;
+- un interstitiel pouvant apparaître après une évaluation finalisée lorsque tu choisis **« Retour à l'accueil »** depuis l'écran Résultat.
 
-Vayvi reçoit uniquement le résultat de l'authentification fourni par le système.
-L'application ne reçoit ni ne stocke tes données biométriques.
+La première finalisation ne déclenche pas d'interstitiel. Des limites de fréquence sont appliquées afin d'éviter des affichages trop rapprochés. Une annonce non disponible ne bloque pas la navigation.
 
-## Partage
+**Vayvi+ bloque les annonces dans le fonctionnement normal.**
 
-Le partage d'une carte est volontaire.
+Aucune publicité récompensée réelle n'est utilisée dans cette version et les Signaux majeurs restent gratuits.
 
-La carte est anonyme par défaut. Le nom ou surnom de la personne évaluée n'est
-inclus que si tu choisis explicitement de l'ajouter.
+### Google Mobile Ads
 
-La carte est générée localement dans le cache de Vayvi puis transmise à
-l'application que tu choisis via les mécanismes de partage Android.
+Vayvi intègre **Google Mobile Ads**.
 
-Une fois partagée, l'image quitte le contrôle de Vayvi. L'application destinataire
-et les personnes auxquelles tu la transmets peuvent la conserver ou la
-redistribuer.
+Selon la documentation Google du SDK Mobile Ads, celui-ci collecte et partage automatiquement certaines données techniques pour la publicité, l'analyse et la prévention des fraudes, notamment :
 
-Vérifie son contenu avant de la diffuser et évite de partager des informations
-personnelles ou sensibles sans nécessité.
+- l'adresse IP, qui peut permettre d'estimer une position générale ;
+- les interactions avec l'application ou les annonces ;
+- des informations de diagnostic et de performance ;
+- des identifiants de l'appareil ou du compte, dont l'identifiant publicitaire Android lorsqu'il est disponible.
 
-## Conservation et suppression
+Ces données techniques sont distinctes des données relationnelles que tu saisis dans Vayvi.
 
-Les évaluations restent disponibles localement jusqu'à leur suppression. Il
-n'existe pas de durée d'expiration automatique.
+Vayvi ne fournit pas explicitement à Google Mobile Ads les noms ou surnoms saisis, les identifiants d'évaluation ou d'histoire, les Flags, Signaux majeurs, scores, phases relationnelles, décisions, notes ou données de Moi.
 
-Le brouillon peut être remplacé ou effacé au fil de ton utilisation.
+Google indique que les données collectées par le SDK Mobile Ads sont chiffrées en transit à l'aide de TLS.
 
-Tu peux supprimer individuellement une évaluation depuis son écran de détail,
-après confirmation.
+Documentation Google :  
+<https://developers.google.com/admob/android/privacy/play-data-disclosure>
 
-Dans Paramètres, l'action **« Supprimer toutes mes données »** efface notamment :
+Politique de confidentialité Google :  
+<https://policies.google.com/privacy?hl=fr>
 
-- les évaluations ;
-- le brouillon ;
+Google peut traiter certaines données dans différents pays selon ses propres règles et mécanismes de transfert de données.
+
+### Consentement et options de confidentialité
+
+Vayvi utilise **Google User Messaging Platform (UMP)** pour gérer les messages et choix de confidentialité liés à la publicité lorsque cela est requis.
+
+Lorsque l'option est requise, tu peux rouvrir les **Options de confidentialité** depuis les Paramètres de Vayvi afin de revoir tes choix.
+
+Documentation Google UMP :  
+<https://developers.google.com/admob/android/privacy?hl=fr>
+
+Vayvi n'intègre pas Firebase Analytics ni Google Analytics comme outil d'analyse applicative propre à Vayvi. Cela n'exclut pas les mesures techniques réalisées par le SDK publicitaire.
+
+## 5. Permissions Android et fonctions associées
+
+Vayvi peut utiliser des permissions Android nécessaires à certaines fonctions :
+
+- **Internet et état du réseau** : notamment pour Google Mobile Ads et UMP ;
+- **identifiant publicitaire / API publicitaires Android** : selon les capacités de l'appareil et les règles applicables ;
+- **biométrie** : pour la protection optionnelle des zones privées ;
+- **notifications** : uniquement si tu actives le rappel quotidien de Moi ;
+- **redémarrage de l'appareil** : afin de pouvoir rétablir ce rappel local après un redémarrage.
+
+Vayvi ne demande pas d'accès à la caméra, au microphone, aux contacts, à la localisation précise ou au stockage partagé.
+
+L'absence de permission de localisation n'empêche pas Google Mobile Ads d'utiliser l'adresse IP pour estimer une position générale, comme indiqué ci-dessus.
+
+### Biométrie
+
+Vayvi reçoit uniquement le résultat de l'authentification fourni par le système Android.
+
+L'application ne reçoit ni ne stocke ton empreinte, ton visage ou un gabarit biométrique.
+
+## 6. Notifications locales
+
+Le rappel quotidien de Moi est désactivé par défaut.
+
+Si tu l'actives, l'heure choisie est enregistrée localement et Android peut demander l'autorisation d'afficher des notifications.
+
+Le contenu du rappel ne contient aucun nom, score, Flag, Signal majeur ou autre donnée relationnelle.
+
+## 7. Partage d'une carte
+
+Le partage d'une carte de résultat est volontaire.
+
+La carte est anonyme par défaut. Le nom ou surnom de la personne évaluée n'est inclus que si tu choisis explicitement de l'ajouter.
+
+La carte est générée localement dans le cache de Vayvi puis transmise à l'application que tu choisis via les mécanismes de partage Android.
+
+Une fois partagée, l'image quitte le contrôle de Vayvi. L'application destinataire et les personnes auxquelles tu la transmets peuvent la conserver ou la redistribuer.
+
+Vérifie son contenu avant de la diffuser et évite de partager des informations personnelles ou sensibles sans nécessité.
+
+## 8. Conservation et suppression dans Vayvi
+
+Les évaluations restent disponibles localement jusqu'à leur suppression. Il n'existe pas de durée d'expiration automatique.
+
+Les brouillons peuvent être remplacés ou effacés au fil de l'utilisation.
+
+Tu peux supprimer individuellement une évaluation depuis son écran de détail.
+
+Dans les Paramètres, l'action **« Supprimer toutes mes données »** efface notamment :
+
+- les évaluations et brouillons ;
 - les histoires suivies, leurs points et décisions ;
 - le profil personnel et son brouillon ;
 - les préférences locales de Vayvi ;
 - les états locaux simulés ;
 - le cache des cartes de partage.
 
-Cette action efface les données locales prises en charge ci-dessus, pas toutes
-les données liées aux services publicitaires. Elle ne réinitialise pas
-automatiquement les choix UMP et n'efface pas le compteur technique local de
-fréquence publicitaire. Elle ne supprime pas des données éventuellement détenues
-par Google. Les choix publicitaires se gèrent via « Options de confidentialité »
-lorsque UMP le requiert.
+Cette action concerne les données locales gérées par Vayvi. Elle ne supprime pas automatiquement :
 
-Si l'effacement du cache de partage
-échoue après celui des données principales, l'application le signale et permet
-de réessayer ; la vérification physique de ce parcours reste en attente.
+- les choix de consentement mémorisés par UMP ;
+- certains compteurs techniques locaux liés à la fréquence publicitaire ;
+- les données éventuellement traitées ou conservées par Google ;
+- les copies éventuellement créées par Android, le fabricant de l'appareil ou une application à laquelle tu as volontairement partagé une carte.
 
-Tu peux également utiliser l'effacement des données de l'application proposé par
-Android ou désinstaller Vayvi.
+Lorsque UMP l'exige, les choix publicitaires peuvent être revus via **Options de confidentialité**.
 
-Une désinstallation supprime normalement la copie locale présente dans
-l'application. Les éventuelles copies ou restaurations gérées par le système
-d'exploitation ou le fabricant dépendent de leurs propres réglages de sauvegarde.
+Tu peux également utiliser l'effacement des données de l'application proposé par Android ou désinstaller Vayvi.
 
-GolApp Studio ne peut pas effacer à distance des données qu'il ne reçoit pas.
+GolApp Studio ne peut pas supprimer à distance des données relationnelles qu'il ne reçoit pas.
 
-Aucun compte utilisateur n'existe dans cette version : il n'existe donc pas de
-procédure de suppression de compte Vayvi.
+Aucun compte utilisateur Vayvi n'existe dans cette version : il n'existe donc pas de procédure de suppression de compte.
 
-## Sécurité
+## 9. Données envoyées volontairement à GolApp Studio
+
+Si tu contactes GolApp Studio par e-mail, par exemple pour :
+
+- demander de l'aide ;
+- signaler un problème ;
+- poser une question sur la confidentialité ;
+- demander à participer à un programme de test ;
+
+GolApp Studio reçoit l'adresse e-mail utilisée, le contenu du message et les éventuelles pièces jointes que tu choisis d'envoyer.
+
+Ces informations sont utilisées pour traiter et suivre ta demande.
+
+Pour les demandes de support et de participation à un test, le traitement repose sur l'intérêt légitime de GolApp Studio à répondre aux utilisateurs et à gérer ses programmes de test. Pour une demande portant sur l'exercice de tes droits, les informations nécessaires sont traitées afin de respecter les obligations légales applicables.
+
+Les messages sont conservés pendant le temps nécessaire au traitement de la demande et à son suivi raisonnable, sous réserve des obligations légales ou de la nécessité de conserver certains éléments en cas de litige.
+
+L'adresse de support utilise un service de messagerie Google ; Google peut donc traiter les données techniques et le contenu nécessaires au fonctionnement de ce service selon ses propres règles.
+
+**N'envoie pas d'évaluation complète, de capture contenant des informations privées ou de données personnelles concernant d'autres personnes si ce n'est pas nécessaire.**
+
+## 10. Sécurité
 
 Vayvi utilise l'espace de stockage interne isolé fourni par Android.
 
-Dans cette version, la base de données locale ne bénéficie pas d'un chiffrement
-applicatif supplémentaire.
+Dans cette version, la base de données locale ne bénéficie pas d'un chiffrement applicatif supplémentaire.
 
-La protection biométrique optionnelle contrôle l'accès aux zones privées pendant
-une session. Elle est désactivée par défaut et ne chiffre
-pas la base de données locale.
+La protection biométrique optionnelle contrôle l'accès aux zones privées pendant une session. Elle est désactivée par défaut et ne chiffre pas la base de données.
 
-L'absence de noms et de scores sur l'écran d'accueil limite également leur
-exposition visuelle.
+L'écran d'accueil n'affiche pas directement les noms et scores des évaluations afin de limiter leur exposition visuelle.
 
-Protège ton appareil avec un mécanisme de verrouillage adapté et maîtrise les
-options de sauvegarde de ton système.
+Protège ton appareil avec un mécanisme de verrouillage adapté et vérifie les options de sauvegarde proposées par ton système.
 
-Aucun système informatique ne peut garantir une sécurité absolue ou la
-suppression forensique de toute trace.
+Aucun système informatique ne peut garantir une sécurité absolue.
 
-## Public et mineurs
+## 11. Tes droits
+
+Lorsque GolApp Studio traite directement tes données personnelles, notamment dans le cadre d'un échange de support, tu peux demander, selon les conditions prévues par la réglementation :
+
+- l'accès à tes données ;
+- leur rectification ;
+- leur effacement ;
+- la limitation du traitement ;
+- l'opposition au traitement lorsque ce droit s'applique ;
+- le retrait de ton consentement lorsque le traitement repose sur celui-ci.
+
+Pour exercer ces droits : **golappstudio.support@gmail.com**
+
+Pour les données qui restent uniquement dans Vayvi sur ton appareil, utilise les fonctions de suppression de l'application ou les réglages Android.
+
+Pour les données traitées par Google, utilise également les options de confidentialité proposées dans Vayvi, Android et les services Google concernés.
+
+Tu peux introduire une réclamation auprès de la **CNIL** :  
+<https://www.cnil.fr/>
+
+## 12. Décisions automatisées
+
+Vayvi calcule localement des scores et interprétations à partir de tes sélections.
+
+Ces résultats servent uniquement d'aide à la réflexion personnelle et ne produisent pas de décision juridique ou d'effet similaire à ton égard.
+
+## 13. Public et mineurs
 
 Vayvi est destiné aux personnes âgées de **18 ans et plus**.
 
 L'application n'est pas conçue pour les enfants.
 
-Utilise Vayvi dans un cadre de réflexion personnelle, avec respect pour les
-personnes concernées, et ne considère pas ses scores ou interprétations comme une
-vérité objective ou un diagnostic sur une personne.
+Utilise Vayvi dans un cadre de réflexion personnelle et avec respect pour les personnes concernées.
 
-## Évolution de cette politique
+## 14. Évolution de cette politique
 
-Cette politique pourra évoluer si les fonctionnalités ou les pratiques de Vayvi
-changent.
+Cette politique peut évoluer lorsque les fonctionnalités ou les pratiques de Vayvi changent.
 
-Elle devra notamment être réévaluée avant l'ajout éventuel de fonctionnalités
-telles que :
+Elle sera notamment réévaluée avant l'ajout ou la modification de fonctionnalités susceptibles de changer les traitements de données, par exemple :
 
-- nouveaux formats publicitaires ou changements de traitements publicitaires ;
+- nouveaux formats publicitaires ;
 - achats ou abonnements ;
 - nouveaux services réseau ;
-- analytics applicatif ;
-- crash reporting ;
+- outils d'analyse ou de crash reporting ;
 - synchronisation distante ;
-- autres SDK susceptibles de traiter des données.
+- nouveaux SDK traitant des données.
 
-La date indiquée en haut de cette page sera mise à jour lors de toute modification
-significative.
+La date indiquée en haut de la page sera mise à jour lors de toute modification significative.
 
-## Contact
+## 15. Hébergement de cette page
+
+Cette politique est publiée avec **GitHub Pages**.
+
+La consultation du site peut entraîner le traitement de données techniques par GitHub nécessaires à l'hébergement et à la sécurité du service, selon les règles de confidentialité de GitHub.
+
+Politique de confidentialité GitHub :  
+<https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement>
+
+## 16. Contact
 
 Pour toute question relative à Vayvi ou à cette politique de confidentialité :
 
-**GolApp Studio**
+**GolApp Studio**  
 **golappstudio.support@gmail.com**
-
-N'envoie pas d'évaluations, de captures contenant des informations privées ou de
-données personnelles concernant d'autres personnes dans une demande de support.
