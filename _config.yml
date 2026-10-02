@@ -1,0 +1,9 @@
+title: "Politique de confidentialité de Vayvi"
+description: "Politique de confidentialité de l'application Android Vayvi publiée par GolApp Studio."
+url: "https://shamsgolap.github.io"
+baseurl: "/vayvi-privacy"
+lang: "fr"
+
+exclude:
+  - README.md
+  - SECURITY.md
