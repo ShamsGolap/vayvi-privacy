@@ -6,9 +6,13 @@ description: Politique de confidentialité de l'application Android Vayvi publi�
 
 # Politique de confidentialité de Vayvi
 
-**Dernière mise à jour : 2 octobre 2026**
+**Dernière mise à jour : 19 octobre 2026**
 
 Version concernée : Vayvi 0.2.3+6, Android `com.golappstudio.vayvi`.
+
+**Prochaine version en préparation : 0.2.4+7 (non encore disponible sur Google Play).**
+Ce document détaille également les nouveaux traitements locaux prévus pour cette version.
+La version affichée sur la page du programme de test demeure celle actuellement publiée.
 
 > **En bref**
 >
@@ -38,7 +42,8 @@ Selon les fonctions utilisées, tu peux notamment saisir ou sélectionner :
 - des évaluations, brouillons et dates associées ;
 - des ressentis et points de suivi dans Analyse ;
 - des intentions et notes facultatives dans Décide ;
-- les informations du profil personnel et son brouillon dans Moi.
+- les informations du profil personnel et son brouillon dans Moi ;
+- **à partir de la version candidate 0.2.4+7**, tes choix de boussole intérieure (valeurs, besoins, limites et priorités), tes défis personnels et les notes privées de ton journal émotionnel (émotion choisie, intensité, contexte, réflexion facultative et dates).
 
 Vayvi utilise ces informations pour afficher tes évaluations, calculer les scores et interprétations demandés, permettre leur consultation et leur modification, et faire fonctionner les fonctions locales de l'application.
 
@@ -62,9 +67,9 @@ GolApp Studio ne vend pas les données contenues dans tes évaluations.
 
 ### Sauvegardes Android
 
-Les sauvegardes, restaurations ou transferts proposés par Android ou par le fabricant de ton appareil sont distincts de Vayvi.
+Vayvi configure Android pour exclure les données de l'application des sauvegardes et transferts automatiques : `allowBackup=false` et règles spécifiques d'exclusion du stockage principal. Cela ne garantit pas la suppression de copies éventuellement créées avant l'activation de ces règles, ni des contenus volontairement partagés ou sauvegardés ailleurs.
 
-Selon ton appareil et tes réglages, ils peuvent inclure des données de l'application dans une sauvegarde locale ou distante. Vayvi ne désactive pas explicitement ces mécanismes dans cette version et GolApp Studio n'accède pas à ces sauvegardes.
+Les fonctions propres au fabricant ou à des applications tierces restent régies par leurs propres paramètres de confidentialité. GolApp Studio n'accède pas à la base locale de Vayvi.
 
 ## 4. Publicité et services Google
 
@@ -170,6 +175,7 @@ Dans les Paramètres, l'action **« Supprimer toutes mes données »** efface no
 - les évaluations et brouillons ;
 - les histoires suivies, leurs points et décisions ;
 - le profil personnel et son brouillon ;
+- pour la version candidate 0.2.4+7, la boussole intérieure, les défis et toutes les entrées du journal émotionnel ;
 - les préférences locales de Vayvi ;
 - les états locaux simulés ;
 - le cache des cartes de partage.
