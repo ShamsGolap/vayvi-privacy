@@ -6,6 +6,13 @@ Dépôt public de la politique de confidentialité de **Vayvi**, application And
 
 https://shamsgolap.github.io/vayvi-privacy/
 
+## Documents publics
+
+- Politique de confidentialité : `index.md`.
+- Conditions générales d’utilisation (bêta gratuite) : `cgu.md`, [page publique](https://shamsgolap.github.io/vayvi-privacy/cgu.html).
+
+Une modification importante doit être reportée dans le contenu hors ligne de Vayvi (`terms_of_use_content.dart`). Les CGU ne remplacent pas des mentions légales complètes ni les futures CGV de Vayvi+.
+
 ## Fichier principal
 
 La politique publiée est maintenue dans `index.md`.
