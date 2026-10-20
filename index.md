@@ -6,6 +6,8 @@ description: Politique de confidentialité de l'application Android Vayvi publi�
 
 # Politique de confidentialité de Vayvi
 
+**Informations juridiques complémentaires : [Conditions générales d’utilisation de Vayvi](./cgu.html).**
+
 **Dernière mise à jour : 19 octobre 2026**
 
 Version concernée : Vayvi 0.2.3+6, Android `com.golappstudio.vayvi`.
