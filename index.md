@@ -8,13 +8,13 @@ description: Politique de confidentialité de l'application Android Vayvi publi�
 
 **Informations juridiques complémentaires : [Conditions générales d’utilisation de Vayvi](./cgu.html).**
 
-**Dernière mise à jour : 19 octobre 2026**
+**Dernière mise à jour : 21 octobre 2026**
 
 Version concernée : Vayvi 0.2.3+6, Android `com.golappstudio.vayvi`.
 
-**Prochaine version en préparation : 0.2.4+7 (non encore disponible sur Google Play).**
-Ce document détaille également les nouveaux traitements locaux prévus pour cette version.
-La version affichée sur la page du programme de test demeure celle actuellement publiée.
+**Version 0.3.0+7 soumise à la validation Google Play pour le test fermé Alpha (en attente d'approbation, non encore disponible).**
+Ce document détaille également les nouveaux traitements locaux prévus pour cette version, notamment la boussole intérieure, les défis, le journal émotionnel et les liens volontaires avec les évaluations et histoires suivies.
+La version actuellement disponible reste **0.2.3+6** jusqu'à sa mise à disposition effective sur Google Play ; la page du programme de test affiche donc encore cette version.
 
 > **En bref**
 >
@@ -45,7 +45,7 @@ Selon les fonctions utilisées, tu peux notamment saisir ou sélectionner :
 - des ressentis et points de suivi dans Analyse ;
 - des intentions et notes facultatives dans Décide ;
 - les informations du profil personnel et son brouillon dans Moi ;
-- **à partir de la version candidate 0.2.4+7**, tes choix de boussole intérieure (valeurs, besoins, limites et priorités), tes défis personnels et les notes privées de ton journal émotionnel (émotion choisie, intensité, contexte, réflexion facultative et dates).
+- **à partir de la version candidate 0.3.0+7**, tes choix de boussole intérieure (valeurs, besoins, limites et priorités), tes défis personnels et les notes privées de ton journal émotionnel (émotion choisie, intensité, contexte, réflexion facultative et dates).
 
 Vayvi utilise ces informations pour afficher tes évaluations, calculer les scores et interprétations demandés, permettre leur consultation et leur modification, et faire fonctionner les fonctions locales de l'application.
 
@@ -177,7 +177,7 @@ Dans les Paramètres, l'action **« Supprimer toutes mes données »** efface no
 - les évaluations et brouillons ;
 - les histoires suivies, leurs points et décisions ;
 - le profil personnel et son brouillon ;
-- pour la version candidate 0.2.4+7, la boussole intérieure, les défis et toutes les entrées du journal émotionnel ;
+- pour la version candidate 0.3.0+7, la boussole intérieure, les défis et toutes les entrées du journal émotionnel ;
 - les préférences locales de Vayvi ;
 - les états locaux simulés ;
 - le cache des cartes de partage.
