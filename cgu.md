@@ -44,6 +44,8 @@ La version gratuite peut afficher des publicités gérées par Google Mobile Ads
 
 **La version 0.3.0+7 actuellement disponible en test fermé Google Play ne propose pas d'achat payant Vayvi+.** Les APK Preview peuvent utiliser un Test Store RevenueCat, avec achats et renouvellements fictifs sans prélèvement.
 
+**Limites fonctionnelles de la prochaine version :** Vayvi Free conserve des évaluations illimitées et la consultation des historiques. Jusqu'à **2 relations peuvent être suivies simultanément**, avec **4 nouveaux points de suivi par relation sur 30 jours glissants**. Vayvi+ supprime ces plafonds. Après expiration du Premium, les données ne sont pas supprimées et les points précédemment créés sous Premium ne consomment pas rétroactivement les quotas Free. Les achats réels ne sont pas encore disponibles dans la version 0.3.0+7 distribuée.
+
 **Une prochaine version prévoit des achats Google Play vérifiés par RevenueCat** : mensuel, annuel et achat unique « À vie ». Tarifs de lancement envisagés pour la France : 3,99 € par mois, 29,99 € par an et 59,99 € une fois. Les prix localisés, taxes, périodes et modalités affichés dans Google Play avant confirmation prévalent. Les abonnements se renouvellent selon les conditions du magasin et peuvent être résiliés depuis [Google Play](https://play.google.com/store/account/subscriptions), sans supprimer les données personnelles locales. Les modalités légales d'achat et les informations précontractuelles devront être finalisées avant le lancement du paiement réel.
 
 ## 5. Tes contenus et le respect des autres
