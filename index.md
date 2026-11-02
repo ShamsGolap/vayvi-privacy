@@ -133,6 +133,12 @@ L'application utilisera RevenueCat pour présenter les offres, recevoir la confi
 
 Voir les [informations sur la confidentialité de RevenueCat](https://www.revenuecat.com/privacy/) et la [politique de Google](https://policies.google.com/privacy?hl=fr). Les données techniques de paiement et leur durée de conservation sont soumises aux conditions de ces fournisseurs. La fiche Google Play « Sécurité des données » devra être réévaluée avant le déploiement d'une version intégrant les achats.
 
+### Quotas locaux du suivi dans la prochaine version
+
+Dans la candidate Vayvi 0.4.0, les évaluations et l'accès à l'historique restent gratuits et illimités en nombre. La formule gratuite peut suivre **2 relations simultanément** et enregistrer **4 nouveaux points par relation sur une période glissante de 30 jours**. Vayvi+ supprime ces plafonds lorsqu'un droit actif est confirmé par RevenueCat (ou simulé uniquement dans la Preview). Une expiration ne supprime aucun contenu : seules les nouvelles actions Free sont limitées.
+
+Pour respecter ces plafonds, l'application conserve **localement** dans SQLite les dates des points et un indicateur distinguant les points créés dans le quota Free des points créés avec Vayvi+. Les points existant avant l'introduction de cette fonction ne sont pas imputés rétroactivement. **Ces indicateurs et les dates de suivi ne sont pas transmis à RevenueCat.** Les données de facturation traitées par les fournisseurs sont décrites séparément ci-dessus.
+
 ## 5. Permissions Android et fonctions associées
 
 Vayvi peut utiliser des permissions Android nécessaires à certaines fonctions :
