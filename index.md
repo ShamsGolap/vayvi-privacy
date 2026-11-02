@@ -8,7 +8,7 @@ description: Politique de confidentialité de l'application Android Vayvi publi�
 
 **Informations juridiques complémentaires : [Conditions générales d’utilisation de Vayvi](./cgu.html).**
 
-**Dernière mise à jour : 22 octobre 2026**
+**Dernière mise à jour : 2 novembre 2026**
 
 Version concernée : Vayvi 0.3.0+7, Android `com.golappstudio.vayvi`.
 
@@ -83,7 +83,7 @@ Les emplacements actuellement prévus sont :
 
 La première finalisation ne déclenche pas d'interstitiel. Des limites de fréquence sont appliquées afin d'éviter des affichages trop rapprochés. Une annonce non disponible ne bloque pas la navigation.
 
-**Vayvi+ bloque les annonces dans le fonctionnement normal.** Dans cette version, Vayvi+ reste une simulation locale et aucun paiement réel n’est traité.
+**Vayvi+ bloque les annonces pour un droit Premium actif.** La version 0.3.0+7 actuellement diffusée sur Google Play demeure une version de test sans paiement réel. Une prochaine version est en préparation avec des achats intégrés vérifiés par RevenueCat et facturés par Google Play après activation du compte marchand. Les APK Preview indépendantes utilisent uniquement le Test Store RevenueCat : leurs transactions sont fictives et les publicités sont des annonces de test.
 
 Aucune publicité récompensée réelle n'est utilisée dans cette version et les Signaux majeurs restent gratuits.
 
@@ -122,6 +122,16 @@ Documentation Google UMP :
 <https://developers.google.com/admob/android/privacy?hl=fr>
 
 Vayvi n'intègre pas Firebase Analytics ni Google Analytics comme outil d'analyse applicative propre à Vayvi. Cela n'exclut pas les mesures techniques réalisées par le SDK publicitaire.
+
+## Paiements et abonnements — prochaine version en préparation
+
+**Important : ces informations décrivent une évolution en préparation et non des achats déjà disponibles dans la version 0.3.0+7 de Google Play.** Vayvi+ proposera les formules mensuelle, annuelle et achat unique « À vie ». Les prix et conditions effectivement facturés seront toujours ceux affichés par Google Play avant confirmation. Les tarifs français envisagés sont 3,99 € par mois, 29,99 € par an et 59,99 € une fois ; ils peuvent varier selon le pays et le magasin.
+
+L'application utilisera RevenueCat pour présenter les offres, recevoir la confirmation d'un droit Vayvi+, restaurer des achats et identifier le renouvellement ou l'expiration des abonnements. Le SDK peut traiter un identifiant d'acheteur généré automatiquement, les identifiants de produit, les dates et états d'abonnement, des informations nécessaires à la validation des transactions et des diagnostics techniques. Les opérations de paiement sont traitées par Google Play ; Vayvi n'enregistre pas le numéro de carte bancaire.
+
+**Les données de journal, évaluations, boussole, flags privés et scores ne sont pas transmises à RevenueCat par Vayvi.** Ces informations restent enregistrées localement. La suppression des données locales ou la désinstallation de Vayvi ne résilie pas automatiquement un abonnement Google Play. La gestion ou résiliation s'effectue dans les [abonnements Google Play](https://play.google.com/store/account/subscriptions) et l'accès payé reste généralement disponible jusqu'à la fin de la période déjà acquittée, suivant le statut retourné par le magasin. L'achat « À vie » n'est pas un abonnement renouvelable.
+
+Voir les [informations sur la confidentialité de RevenueCat](https://www.revenuecat.com/privacy/) et la [politique de Google](https://policies.google.com/privacy?hl=fr). Les données techniques de paiement et leur durée de conservation sont soumises aux conditions de ces fournisseurs. La fiche Google Play « Sécurité des données » devra être réévaluée avant le déploiement d'une version intégrant les achats.
 
 ## 5. Permissions Android et fonctions associées
 
