@@ -6,7 +6,7 @@ description: Conditions d'utilisation de l'application mobile Vayvi publiée par
 
 # Conditions générales d’utilisation de Vayvi
 
-**Version des CGU : 1.0 — 20 octobre 2026**
+**Version des CGU : 1.1 — 2 novembre 2026**
 
 Ces conditions présentent simplement ce que propose Vayvi et les règles qui accompagnent son utilisation. Elles concernent la version gratuite Android et son programme de test fermé. La politique de confidentialité est un document distinct.
 
@@ -42,7 +42,9 @@ La version Android proposée actuellement est gratuite, sans achat intégré ni 
 
 La version gratuite peut afficher des publicités gérées par Google Mobile Ads ; leurs modalités et les choix de confidentialité sont expliqués dans la [politique de confidentialité](./).
 
-**Vayvi+ est, à ce stade, une simulation locale.** Aucune souscription réelle n’est proposée. Si des achats ou abonnements sont lancés ultérieurement, leurs prix et conditions feront l’objet d’informations et de conditions de vente spécifiques avant toute souscription.
+**La version 0.3.0+7 actuellement disponible en test fermé Google Play ne propose pas d'achat payant Vayvi+.** Les APK Preview peuvent utiliser un Test Store RevenueCat, avec achats et renouvellements fictifs sans prélèvement.
+
+**Une prochaine version prévoit des achats Google Play vérifiés par RevenueCat** : mensuel, annuel et achat unique « À vie ». Tarifs de lancement envisagés pour la France : 3,99 € par mois, 29,99 € par an et 59,99 € une fois. Les prix localisés, taxes, périodes et modalités affichés dans Google Play avant confirmation prévalent. Les abonnements se renouvellent selon les conditions du magasin et peuvent être résiliés depuis [Google Play](https://play.google.com/store/account/subscriptions), sans supprimer les données personnelles locales. Les modalités légales d'achat et les informations précontractuelles devront être finalisées avant le lancement du paiement réel.
 
 ## 5. Tes contenus et le respect des autres
 
