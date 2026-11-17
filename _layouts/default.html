@@ -10,7 +10,7 @@
     content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; script-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none';"
   />
   <meta name="description" content="{{ page.description | default: site.description | escape }}" />
-  <link rel="canonical" href="https://shamsgolap.github.io/vayvi-privacy/" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <link rel="stylesheet" href="{{ '/assets/css/privacy.css' | relative_url }}" />
   <title>{{ page.title | default: site.title | escape }}</title>
 </head>
@@ -23,9 +23,13 @@
       </a>
 
       <div class="hero">
-        <span class="kicker">Confidentialité</span>
-        <h1>Politique de confidentialité</h1>
+        <span class="kicker">Informations légales</span>
+        <h1>{{ page.title | escape }}</h1>
+        {% if page.url contains 'cgu' %}
+        <p>Retrouve le cadre d'utilisation de Vayvi, ses limites et les droits des utilisateurs.</p>
+        {% else %}
         <p>Cette page explique quelles données Vayvi utilise, où elles sont conservées, quels services tiers interviennent et quels sont tes choix.</p>
+        {% endif %}
       </div>
     </div>
   </header>
