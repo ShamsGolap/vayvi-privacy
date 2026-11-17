@@ -6,9 +6,9 @@ description: Conditions d'utilisation de l'application mobile Vayvi publiée par
 
 # Conditions générales d’utilisation de Vayvi
 
-**Version des CGU : 1.1 — 2 novembre 2026**
+**Version des CGU : 1.2 — 17 novembre 2026**
 
-Ces conditions présentent simplement ce que propose Vayvi et les règles qui accompagnent son utilisation. Elles concernent la version gratuite Android et son programme de test fermé. La politique de confidentialité est un document distinct.
+Ces conditions présentent simplement ce que propose Vayvi et les règles qui accompagnent son utilisation. Elles distinguent la version Android 0.3.0+7 effectivement distribuée en test fermé de la candidate 0.4.0+8 encore en préparation. La politique de confidentialité est un document distinct.
 
 ## 1. Qui propose Vayvi ?
 
@@ -44,7 +44,7 @@ La version gratuite peut afficher des publicités gérées par Google Mobile Ads
 
 **La version 0.3.0+7 actuellement disponible en test fermé Google Play ne propose pas d'achat payant Vayvi+.** Les APK Preview peuvent utiliser un Test Store RevenueCat, avec achats et renouvellements fictifs sans prélèvement.
 
-**Limites fonctionnelles de la prochaine version :** Vayvi Free conserve des évaluations illimitées et la consultation des historiques. Jusqu'à **2 relations peuvent être suivies simultanément**, avec **4 nouveaux points de suivi par relation sur 30 jours glissants**. Vayvi+ supprime ces plafonds. Après expiration du Premium, les données ne sont pas supprimées et les points précédemment créés sous Premium ne consomment pas rétroactivement les quotas Free. Les achats réels ne sont pas encore disponibles dans la version 0.3.0+7 distribuée.
+**Limites fonctionnelles de la candidate 0.4.0+8 (non distribuée sur Google Play) :** Vayvi Free permet de conserver au maximum **5 évaluations enregistrées**, de suivre **2 relations simultanément** et d'ajouter **4 nouveaux points de suivi par relation sur 30 jours glissants**. À 5 évaluations, la création d'une nouvelle évaluation nécessite d'en supprimer définitivement une ou de passer à Vayvi+ ; **aucun archivage** n'est proposé. Consulter, modifier ou partager les évaluations existantes reste possible. Vayvi+ supprime les quotas de création. Après expiration du Premium, les données ne sont pas supprimées et les points précédemment créés sous Premium ne consomment pas rétroactivement les quotas Free. Les achats réels ne sont pas encore disponibles dans la version 0.3.0+7 distribuée.
 
 **Une prochaine version prévoit des achats Google Play vérifiés par RevenueCat** : mensuel, annuel et achat unique « À vie ». Tarifs de lancement envisagés pour la France : 3,99 € par mois, 29,99 € par an et 59,99 € une fois. Les prix localisés, taxes, périodes et modalités affichés dans Google Play avant confirmation prévalent. Les abonnements se renouvellent selon les conditions du magasin et peuvent être résiliés depuis [Google Play](https://play.google.com/store/account/subscriptions), sans supprimer les données personnelles locales. Les modalités légales d'achat et les informations précontractuelles devront être finalisées avant le lancement du paiement réel.
 

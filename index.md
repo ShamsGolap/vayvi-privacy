@@ -8,12 +8,14 @@ description: Politique de confidentialité de l'application Android Vayvi publi�
 
 **Informations juridiques complémentaires : [Conditions générales d’utilisation de Vayvi](./cgu.html).**
 
-**Dernière mise à jour : 2 novembre 2026**
+**Dernière mise à jour : 17 novembre 2026**
 
 Version concernée : Vayvi 0.3.0+7, Android `com.golappstudio.vayvi`.
 
 **Version 0.3.0+7 disponible sur Google Play dans le programme de test fermé Alpha.**
 Cette version inclut notamment la boussole intérieure, les défis, le journal émotionnel et les liens volontaires entre ressentis, évaluations et histoires suivies. Le programme de test est limité aux testeurs autorisés.
+
+**Évolution documentée, non encore distribuée sur Google Play :** Vayvi **0.4.0+8** est une candidate sur la branche de développement, distincte de la version 0.3.0+7 publiée dans le test fermé. Les fonctions, quotas et achats de la candidate sont indiqués comme tels ci-dessous. Les traductions supplémentaires présentes sur la branche expérimentale `experiment/global` ne constituent pas un lancement international.
 
 > **En bref**
 >
@@ -45,6 +47,8 @@ Selon les fonctions utilisées, tu peux notamment saisir ou sélectionner :
 - des intentions et notes facultatives dans Décide ;
 - les informations du profil personnel et son brouillon dans Moi ;
 - **à partir de la version 0.3.0+7**, tes choix de boussole intérieure (valeurs, besoins, limites et priorités), tes défis personnels et les notes privées de ton journal émotionnel (émotion choisie, intensité, contexte, réflexion facultative et dates).
+
+**Dans la candidate 0.4.0+8 uniquement**, un utilisateur Vayvi+ peut aussi enregistrer des flags personnalisés, leurs libellés et pondérations, ainsi que des révisions du catalogue et des références historiques des scores. Ces éléments demeurent dans la base locale de Vayvi, comme les autres données relationnelles.
 
 Vayvi utilise ces informations pour afficher tes évaluations, calculer les scores et interprétations demandés, permettre leur consultation et leur modification, et faire fonctionner les fonctions locales de l'application.
 
@@ -133,11 +137,11 @@ L'application utilisera RevenueCat pour présenter les offres, recevoir la confi
 
 Voir les [informations sur la confidentialité de RevenueCat](https://www.revenuecat.com/privacy/) et la [politique de Google](https://policies.google.com/privacy?hl=fr). Les données techniques de paiement et leur durée de conservation sont soumises aux conditions de ces fournisseurs. La fiche Google Play « Sécurité des données » devra être réévaluée avant le déploiement d'une version intégrant les achats.
 
-### Quotas locaux du suivi dans la prochaine version
+### Quotas locaux de la candidate Vayvi 0.4.0+8
 
-Dans la candidate Vayvi 0.4.0, les évaluations et l'accès à l'historique restent gratuits et illimités en nombre. La formule gratuite peut suivre **2 relations simultanément** et enregistrer **4 nouveaux points par relation sur une période glissante de 30 jours**. Vayvi+ supprime ces plafonds lorsqu'un droit actif est confirmé par RevenueCat (ou simulé uniquement dans la Preview). Une expiration ne supprime aucun contenu : seules les nouvelles actions Free sont limitées.
+Dans la candidate, **Vayvi Free conserve au maximum 5 évaluations enregistrées** sur l'appareil, **2 relations suivies simultanément** et **4 nouveaux points par relation sur une période glissante de 30 jours**. Vayvi+ supprime ces plafonds lorsqu'un droit actif est confirmé par RevenueCat (ou simulé uniquement dans la Preview). La lecture, la modification, le partage et la suppression des évaluations existantes restent possibles. Pour créer une nouvelle évaluation lorsqu'il y en a déjà cinq, il faut **en supprimer définitivement une ou activer Vayvi+** : aucune fonction d'archivage n'est proposée. Une expiration Premium ne supprime ni ne masque les contenus déjà enregistrés, même lorsque leur nombre dépasse le quota Free. Les nouvelles créations sont alors limitées.
 
-Pour respecter ces plafonds, l'application conserve **localement** dans SQLite les dates des points et un indicateur distinguant les points créés dans le quota Free des points créés avec Vayvi+. Les points existant avant l'introduction de cette fonction ne sont pas imputés rétroactivement. **Ces indicateurs et les dates de suivi ne sont pas transmis à RevenueCat.** Les données de facturation traitées par les fournisseurs sont décrites séparément ci-dessus.
+Pour respecter ces plafonds, l'application conserve **localement** dans SQLite le nombre d'évaluations enregistrées, les dates des points et un indicateur distinguant les points créés dans le quota Free des points créés avec Vayvi+. Les points existant avant l'introduction de cette fonction ne sont pas imputés rétroactivement. **Les évaluations, les compteurs, ces indicateurs et les dates de suivi ne sont pas transmis à RevenueCat.** Les données de facturation traitées par les fournisseurs sont décrites séparément ci-dessus.
 
 ## 5. Permissions Android et fonctions associées
 
